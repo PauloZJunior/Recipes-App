@@ -1,0 +1,78 @@
+.finsihRecipeButton:disabled {
+  background: gray;
+  border-radius: 5px;
+  color: white;
+  cursor: not-allowed;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  margin-bottom: 20px;
+  margin-top: 20.9px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+.finsihRecipeButton:enabled {
+  background: #fcc436;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  margin-bottom: 20px;
+  margin-top: 20.9px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+.shareButton {
+  background-color: transparent;
+  border-color: transparent;
+  height: 20.299px;
+  position: absolute;
+  right: 64px;
+  top: 19px;
+  width: 22.89px;
+}
+
+.favoriteButton {
+  background-color: fcc436;
+  border-color: transparent;
+  fill: #fcc436;
+  height: 20.299px;
+  position: absolute;
+  right: 30px;
+  top: 19px;
+  width: 22.89px;
+}
+
+.linkCopied {
+  position: absolute;
+  right: 40px;
+  top: 170px;
+}
+
+.socialIcons {
+  color: rgba(252, 196, 54, 1);
+  display: flex;
+}
+
+.shareImage {
+  color: rgba(252, 196, 54, 1);
+}
+
+.favoriteFill {
+  fill: #fcc436;
+}
+

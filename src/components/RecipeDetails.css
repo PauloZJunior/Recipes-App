@@ -1,0 +1,30 @@
+.recommendedContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.recommendedCard {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+}
+
+.recommendedCard img {
+  border-radius: 5px;
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.starRecipeButton {
+  bottom: 0;
+  position: fixed;
+  right: 0;
+}

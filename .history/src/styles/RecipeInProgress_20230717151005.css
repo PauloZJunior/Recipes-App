@@ -1,0 +1,6 @@
+.inProgressRecipe {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%) , url(<path-to-image>) , lightgray 0.706px -82.169px / 101.091% 150.768% no-repeat;
+  flex-shrink: 0;
+  height: 161.854px;
+  width: 362.012px;
+}

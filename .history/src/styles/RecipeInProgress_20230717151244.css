@@ -1,0 +1,20 @@
+.inProgressRecipeImage {
+  flex-shrink: 0;
+  height: 161.854px;
+  width: 362.012px;
+}
+
+.inProgressRecipeTitle {
+
+  /* color: #fff; */
+
+  /* font-family: Epilogue; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 2.1px;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  width: 147px;
+}

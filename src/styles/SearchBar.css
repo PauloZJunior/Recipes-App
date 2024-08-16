@@ -1,0 +1,14 @@
+.custom-button {
+  background-color: rgba(252, 196, 54, 1);
+}
+
+.custom-searchbar {
+  background-color: rgba(65, 25, 127, 1);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.custom-label {
+  color: white;
+  font-size: 14px;
+}

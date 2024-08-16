@@ -1,0 +1,19 @@
+.finsihRecipeButton {
+  background: #fcc436;
+  border-radius: 5px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+.shareButton {
+  background-color: none;
+}

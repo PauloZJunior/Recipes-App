@@ -1,0 +1,107 @@
+.InProgressMainContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.recipeImage {
+  flex-shrink: 0;
+  height: 161.854px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.recipeTitle {
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 2.1px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 147px;
+}
+
+.divBanner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.ingredientsTile {
+  color: #1a1b1c;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 142.803px;
+}
+
+.ingredientsListContainer, .instructionsContainer {
+  border: 0.554px solid #b1b1b1;
+  border-radius: 5.351px;
+  display: flex;
+  width: 95%;
+}
+
+.ingredientsList {
+  text-decoration: none;
+}
+
+.ingredientListItem {
+  list-style: none;
+}
+
+.ingredientCheckbox input {
+  display: none;
+}
+
+.checkmark img {
+  display: none;
+}
+
+.checkmark {
+  border: 2px solid #fcc436;
+  border-radius: 3px;
+  flex-shrink: 0;
+  height: 17px;
+  left: 20px;
+  margin-top: 4px;
+  position: absolute;
+  width: 17px;
+}
+
+.ingredientCheckbox input:checked ~ .checkmark img {
+  display: inline;
+  fill: #fcc436;
+  margin-bottom: 15px;
+  margin-left: 1px;
+  stroke: #fcc436;
+  stroke-width: 0.597px;
+}
+
+
+.ingredientCheckbox:hover input ~ .checkmark {
+  cursor: pointer;
+}
+
+.intructionsTitle {
+  color: #1a1b1c;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.instructionsContainer {
+  flex-wrap: wrap;
+}

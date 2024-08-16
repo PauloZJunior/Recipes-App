@@ -1,0 +1,8 @@
+.finsihRecipeButton {
+  background: #fcc436;
+  border-radius: 5px;
+  color: white;
+  flex-shrink: 0;
+  height: 40px;
+  width: 336px;
+}
